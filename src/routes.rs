@@ -7,25 +7,25 @@ use handlebars::Template;
 
 fn index(_: &mut Request) -> IronResult<Response> {
     let mut resp = Response::new();
-    resp.set_mut(Template::new("page/index", "".to_string())).set_mut(status::Ok);
+    resp.set_mut(Template::new("pages/index", "".to_string())).set_mut(status::Ok);
     Ok(resp)
 }
 
 fn sign_up(_: &mut Request) -> IronResult<Response> {
     let mut resp = Response::new();
-    resp.set_mut(Template::new("page/sign_up", "".to_string())).set_mut(status::Ok);
+    resp.set_mut(Template::new("pages/sign_up", "".to_string())).set_mut(status::Ok);
     Ok(resp)
 }
 
 fn sign_in(_: &mut Request) -> IronResult<Response> {
     let mut resp = Response::new();
-    resp.set_mut(Template::new("page/sign_in", "".to_string())).set_mut(status::Ok);
+    resp.set_mut(Template::new("pages/sign_in", "".to_string())).set_mut(status::Ok);
     Ok(resp)
 }
 
 fn sign_out(_: &mut Request) -> IronResult<Response> {
     let mut resp = Response::new();
-    resp.set_mut(Template::new("page/sign_out", "".to_string())).set_mut(status::Ok);
+    resp.set_mut(Template::new("pages/sign_out", "".to_string())).set_mut(status::Ok);
     Ok(resp)
 }
 
