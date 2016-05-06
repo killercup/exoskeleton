@@ -7,10 +7,10 @@ authors = ["Sébastien Nadon <sn@sebastiennadon.com>"]
 watch = ["handlebars-iron/watch"]
 
 [dependencies]
-iron = "*"
-mount = "*"
-staticfile = "*"
-time = "*"
-router = "*"
-iron-login = "*"
-handlebars-iron = "*"
+iron = "0.3.0"
+mount = "0.1.0"
+staticfile = "0.2.0"
+time = "0.1.35"
+router = "0.1.1"
+iron-login = "0.4.1"
+handlebars-iron = "0.15.1"
