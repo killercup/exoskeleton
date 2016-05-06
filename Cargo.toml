@@ -1,0 +1,16 @@
+[package]
+name = "exoskeleton"
+version = "0.1.0"
+authors = ["Sébastien Nadon <sn@sebastiennadon.com>"]
+
+[features]
+watch = ["handlebars-iron/watch"]
+
+[dependencies]
+iron = "*"
+mount = "*"
+staticfile = "*"
+time = "*"
+router = "*"
+iron-login = "*"
+handlebars-iron = "*"
